@@ -4,7 +4,7 @@ A PoC of User-Defined Reflective Loader for Havoc Framework built with Cystal Pa
 
 ## Setup
 
-**Havoc**:
+### Havoc:
 
 Clone my fork that support User-Defined Reflective Loader.
 ```
@@ -14,7 +14,7 @@ cd Havoc
 
 Follow the installation [docs](https://havocframework.com/docs/installation).
 
-**User-Defined Reflective Loader**:
+### User-Defined Reflective Loader:
 
 
 1. Install Crystal Palace linker by following the installation [docs](https://tradecraftgarden.org/docs.html).
@@ -41,7 +41,7 @@ make x64
 
 ## Hooks
 
-**Hook loader imports**:
+### Hook loader imports:
 
 Edit `loader.spec` :
 ```
@@ -61,7 +61,7 @@ BOOL _MyHook() {
 ...
 ```
 
-**Hook demon imports**:
+### Hook demon imports:
 
 Edit `pico.spec`:
 ```
@@ -80,3 +80,9 @@ BOOL _MyHook() {
 }
 ...
 ```
+
+
+## Credits:
+- https://tradecraftgarden.org/
+- https://github.com/rasta-mouse/Crystal-Kit
+- https://www.zeropointsecurity.co.uk/course/red-team-ops-ii
